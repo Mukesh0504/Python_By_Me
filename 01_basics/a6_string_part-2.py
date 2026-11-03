@@ -16,7 +16,7 @@ for letter in new_chai:
 
 
 
-intro = "He said, \"My name is mukesh Dwivedi\""    #if we want to treat this under quote as string so we have use '\' before the quote.
+intro = "He said, \"His name is mukesh Dwivedi\""    #if we want to treat this under quote as string so we have use '\' before the quote.
 print(intro)
 
 

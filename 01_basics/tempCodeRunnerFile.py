@@ -1,1 +1,1 @@
-print('Masala' in new_text)
+print(fruit_varities[1::4])
