@@ -13,6 +13,7 @@ print(num_list[4:7])
 print(num_list[0:8:2])
 
 
+# STRING METHOD 
 newStr = '  Masala Chai Chai Chai  '
 print(newStr.lower())
 print(newStr.upper())
@@ -21,9 +22,10 @@ print(newStr.replace("Masala", "Lemon"))
 
 
 listStr = 'lemon, ginger, masala, mint'
-print(listStr.split(', '))
+print(listStr.split(', '))   # it change the str into list
 print(newStr.find('Masala'))
 print(newStr.count('Chai'))
+
 
 quantity = 2
 order = 'I ordered {} cups of {}'

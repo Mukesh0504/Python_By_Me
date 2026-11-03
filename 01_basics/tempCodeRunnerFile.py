@@ -1,3 +1,1 @@
-chai_variety = ['lemon', 'masala', 'ginger']
-
-print(''.join(chai_variety))
+print('Masala' in new_text)
