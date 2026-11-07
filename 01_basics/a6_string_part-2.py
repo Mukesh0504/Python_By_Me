@@ -16,12 +16,12 @@ for letter in new_chai:
 
 
 
-intro = "He said, \"His name is mukesh Dwivedi\""    #if we want to treat this under quote as string so we have use '\' before the quote.
+intro = "He said, \"His name is mukesh Dwivedi\""    #if we want to treat this inner quote as string so we have use '\' before the quote.
 print(intro)
 
 
 
-new_text = 'Mukesh\nDwivedi' #it print the text in two line to remove this we can use 'r' before the quote.
+new_text = 'Mukesh\nDwivedi' #it print the text in two line to remove this we can use 'r' {raw} before the quote.
 print(new_text)
 
 new_text = r'Mukesh\nDwivedi'

@@ -29,9 +29,13 @@ print(fruit_varities)
 
 
 # LOOPS IN LIST
-for fruit in fruit_varities:
-    print(fruit)
+# for fruit in fruit_varities:
+#     print(fruit)
 
 # loop with index
 for index in range(len(fruit_varities)):
     print(fruit_varities[index])
+
+
+for fruit in fruit_varities:
+    print(fruit, end=' _ ')  # by default the end is \n
