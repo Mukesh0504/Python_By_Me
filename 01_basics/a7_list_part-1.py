@@ -15,12 +15,12 @@ fruit_varities[1:2] = ['Lemon'] #this is the right way to assign
 print(fruit_varities)
 
 
-fruit_varities[1:3] = ['Banana', 'Grapes']
+fruit_varities[1:3] = ['Banana', 'Grapes']  # it updates the two values
 print(fruit_varities)
 
 
 
-print(fruit_varities[1:1])
+print(fruit_varities[1:1])  #it returns empty list
 fruit_varities[1:1] = ['test','test']  # it insert the values after 0th position
 print(fruit_varities)
 
