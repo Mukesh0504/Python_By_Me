@@ -31,15 +31,16 @@ print(new_dict)
 
 
 
+dict_copy  = new_dict.copy()  # it copied the dict without its reference
 
 
 # Loops in Dict
-# for data in new_dict:
-#     print(data, new_dict[data])
+for data in new_dict:
+    print(data, new_dict[data])
 
 
-# for key, value in new_dict.items():
-#     print(key, value)
+for key, value in new_dict.items():
+    print(key, value)
 
 
 

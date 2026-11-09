@@ -1,6 +1,6 @@
 num = 10
-import  sys
 
+import  sys
 print(sys.getrefcount(num)) #it always shows a  random value 
 
 num = 'mukesh'
@@ -25,7 +25,7 @@ h2 = h1[:]
 
 # print(h1, h2)
 h1[0] = 55
-# print(h1,h2)        # if we change any value of h1 it does change the value of h2 because h2 = [:] this syntax didn't take the reference of h1, it only store a copied value
+# print(h1,h2)        # if we change any value of h1 it does change the value of h2 because h2 = [:] this syntax didn't take the reference of h1, it only assign a copied value
 
 
 #--------------------
