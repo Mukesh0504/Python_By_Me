@@ -6,7 +6,7 @@ unique_item = set()
 
 for item in items1:
     if item in unique_item:
-        print("unique item is: ", item)
+        print("duplicate item is: ", item)
     else:
         unique_item.add(item)
 
@@ -17,5 +17,5 @@ for item in items1:
 
 # for item in items2:
 #     if items2.count(item) > 1:
-#         print(item)
+#         print("duplicate item is: ",item)
 #         break
