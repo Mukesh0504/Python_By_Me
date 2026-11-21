@@ -1,0 +1,31 @@
+=======================Iter in list====================
+
+>>> mylist = [1,2,3]
+>>> i = iter(mylist)
+>>> i
+<list_iterator object at 0x000001AF1141D180>
+>>> i.__next__()
+1
+>>> i
+<list_iterator object at 0x000001AF1141D180>
+>>> i.__next__()
+2
+>>> i.__next__()
+3
+>>> i.__next__()
+Traceback (most recent call last):
+  File "<python-input-18>", line 1, in <module>
+    i.__next__()
+    ~~~~~~~~~~^^
+StopIteration
+>>> 
+
+
+
+++++++++++++++++++ f is iter  +++++++++++++++++++
+>>> f =open("01_script.py")
+>>> iter(f) is f
+True
+>>> 
+>>> iter(f) is f.__iter__()
+True

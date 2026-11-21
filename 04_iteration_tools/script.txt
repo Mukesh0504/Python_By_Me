@@ -1,0 +1,68 @@
+>>> f  = open("01_script.py")
+
+>>> f.readline()
+'import time\n'
+
+>>> f.readline()
+'print("this is mukesh")\n'
+
+>>> f.readline()
+'username = "mukesh"\n'
+
+>>> f.readline()
+'print(username)'
+
+>>> f.readline()
+''
+----------------------------------------------------------------
+
+>>> f = open("01_script.py")
+>>> f.__next__()
+'import time\n'
+>>> f.__next__()
+'print("this is mukesh")\n'
+>>> f.__next__()
+'username = "mukesh"\n'
+>>> f.__next__()
+'print(username)'
+>>> f.__next__()
+Traceback (most recent call last):
+  File "<python-input-14>", line 1, in <module>
+    f.__next__()
+    ~~~~~~~~~~^^
+StopIteration
+
+------------------------------------------------------------
+>>> for line in open("01_script.py"):
+...     print(line)
+...     
+import time
+
+print("this is mukesh")
+
+username = "mukesh"
+
+print(username)
+
+=================================================================
+>>> for line in open("01_script.py"):
+...     print(line, end="")
+...     
+import time
+print("this is mukesh")
+username = "mukesh"
+print(username)>>> 
+
+-------------------------------------------------------------------
+
+>>> f = open("01_script.py")
+>>> while True:
+...     line = f.readline()
+...     if not line:
+...         break
+...     print(line, end=" ")
+...     
+import time
+ print("this is mukesh")
+ username = "mukesh"
+ print(username) >>> 
