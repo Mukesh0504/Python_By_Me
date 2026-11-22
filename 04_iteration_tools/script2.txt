@@ -29,3 +29,10 @@ True
 >>> 
 >>> iter(f) is f.__iter__()
 True
+
+
+
+=================================================
+>>> myNewList = [1,2,3,4,5]
+>>> iter(myNewList) == myNewList
+False
