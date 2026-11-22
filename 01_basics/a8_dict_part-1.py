@@ -38,6 +38,12 @@ dict_copy  = new_dict.copy()  # it copied the dict without its reference
 for data in new_dict:
     print(data, new_dict[data])
 
+print("------------------")
+for key in new_dict.keys():
+    print(key)
+
+for values in new_dict.values():
+    print(values)
 
 for key, value in new_dict.items():
     print(key, value)
