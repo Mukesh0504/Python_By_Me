@@ -8,3 +8,5 @@ def square_of_num(number):  # funtion definition with prameters / placeholder
 
 result = square_of_num(5)  # function called with arguments
 print(result)
+
+print (square_of_num(4))
