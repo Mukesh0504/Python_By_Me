@@ -1,7 +1,7 @@
 import random
 print(random.random())  #it gives a random number between 0-1
 
-print(random.randint(1,100)) #it gives a random number between gievn parameter 1,100
+print(random.randint(1,100)) #it gives a random number between gievn arguments 1,100
 
 
 l1 = ['lemon', 'masala chai', 'ginger tea', 'mint']
