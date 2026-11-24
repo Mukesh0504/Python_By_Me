@@ -12,7 +12,7 @@ chai_three = "masala chai"
 
 
 # import os
-# os.cwd()
+# os.getcwd()
 
 
 # import sys
