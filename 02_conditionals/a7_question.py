@@ -5,9 +5,9 @@ coffee_size  = input("Please tell me the coffee size: e.g \n 1. small\n 2. mediu
 extra_shot = True
 
 if extra_shot:
-    coffee = coffee_size + " coffee with an extra shot"
+    coffee_order = coffee_size + " coffee with an extra shot"
 else:
-    coffee = coffee_size + " coffee"
+    coffee_order = coffee_size + " coffee"
 
 
-print(coffee)
+print(coffee_order)
