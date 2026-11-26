@@ -1,7 +1,7 @@
 # Problem: Write a function that takes variable number of arguments and returns their sum.
 
 
-def sum_all(*args):  # *args can hold multiple values
+def sum_all(*args):  # *args can hold multiple values in tuple
     print(args)  # (1,2,3)
 
     for i in args:
